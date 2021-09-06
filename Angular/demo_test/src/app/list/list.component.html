@@ -13,7 +13,7 @@
       <tbody>
         <tr *ngFor="let book of books ">
           <th scope="row">{{ book.id }}</th>
-          <a routerLink="/view/{{ book.id }}"><td>{{ book.title }}</td></a>
+          <a routerLink="/view/{{ book.id }}"><td><i>{{ book.title }}</i></td></a>
           <td>{{ book.author }}</td>
           <td>{{ book.description }}</td>
           <td class="text-center">
